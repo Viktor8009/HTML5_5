@@ -1,0 +1,37 @@
+.glyphicon-volume-off,
+.glyphicon-pause,
+div.played .glyphicon-play-circle,
+div.muted  .glyphicon-volume-up{
+    
+    display: none;      
+}
+
+div.played .glyphicon-pause,
+div.muted  .glyphicon-volume-off
+{   
+    display:block;    
+}
+
+.starter-template{
+    
+    text-align: left;
+    
+}
+.media-handler-div video {
+    
+    max-width: 100%;
+    box-shadow: 0 0 5px #777777;
+    margin: 5px auto;
+}
+
+.media-handler-div .col-md-12 video{
+    
+    width: 100%;
+    display: flex;   
+}
+
+.video-container{
+    
+    transition: all 0.5s;
+    
+}
